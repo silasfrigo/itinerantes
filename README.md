@@ -1,2 +1,0 @@
-# itinerantes
-Podcast Itinerantes

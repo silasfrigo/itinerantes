@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>Blog Itinerantes</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/blog/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+
+
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/4.4/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
+
+<meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      #header{
+        height:20vh;
+      }
+      #jumbotron{
+        display:flex;
+        background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+        color:white;
+        justify-content: center;
+        height:80vh;
+        font-family: 'Kanit', sans-serif;
+      }
+      #white{
+        color:white;
+      }
+      @media(min-width:700px){
+        #jumbotron h1{
+        
+        font-size:5em;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  
+    <header id="header" class="blog-header py-3  bg-success">
+      <nav class="nav d-flex justify-content-between">
+        <a class="p-4 text-muted" href="#"><h3 id="white">Podcast</h3></a>
+        <a class="p-4 text-muted" href="/"><h3 id="white">Blog</h3></a>
+        <a class="p-4 text-muted" href="#contato"><h3 id="white">Contato</h3></a>
+      </nav>
+    </header>
+{%block sub_header %}{% endblock %}
+
+
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-8 blog-main">
+        {%block content%}
+        {%endblock%}
+    </div><!-- /.blog-post -->
+
+      <nav class="blog-pagination">
+        <a class="btn btn-outline-primary" href="#">Posts Antigos</a>
+        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Novos</a>
+      </nav>
+
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+      <div class="p-4 mb-3 bg-light rounded">
+        <h4 class="font-italic">Sobre</h4>
+        <p class="mb-0">Site feito por programadores interessados no aprendizado, em qualquer campo de conhecimento .</p>
+      </div>
+
+      <div class="p-4">
+        <h4 class="font-italic">Arquivos</h4>
+        <ol class="list-unstyled mb-0">
+          <li><a href="#">Podcast 1</a></li>
+          <li><a href="#">Podcast 2</a></li>
+          <li><a href="#">Podcast 3</a></li>
+          
+        </ol>
+      </div>
+
+      <div id="contato" class="p-4">
+        <h4 class="font-italic">Contato</h4>
+        <ol class="list-unstyled">
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ol>
+      </div>
+    </aside><!-- /.blog-sidebar -->
+
+  </div><!-- /.row -->
+
+</main><!-- /.container -->
+
+<!-- Footer -->
+<footer class="page-footer font-small bg-success">
+
+  <!-- Copyright -->
+  <div style="color:white" class="footer-copyright text-center py-3">© Itinerantes 
+    <a style="color:white"href="#header"> Voltar ao topo</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</body>
+</html>
