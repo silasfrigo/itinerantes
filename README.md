@@ -2,6 +2,7 @@
 Podcast Itinerantes
 
 Primeiro Commit:
+  
   //Para rodar o servidor entre na pasta origem pelo terminal e digite py manage.py runserver
   //Blog funciona na porta http://127.0.0.1:8000
   
